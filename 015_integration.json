@@ -208,6 +208,36 @@
           ]
         },
         {
+          "description": "Switch between editor and panel",
+          "type": "basic",
+          "conditions": [
+            {
+             "type": "frontmost_application_if",
+             "bundle_identifiers": [
+                "jhdpafkbedbgckdnecbbppbpboebapeb",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.microsoft\\.VSCodeInsiders$"
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "k",
+              "modifiers": [ "left_command" ]
+            },
+            {
+              "key_code": "o",
+              "modifiers": [ "left_command" ]
+            }
+          ]
+        },
+        {
           "description": "focus next terminal in active terminal group",
           "type": "basic",
           "conditions": [
