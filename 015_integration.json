@@ -208,6 +208,32 @@
           ]
         },
         {
+          "description": "Close Window",
+          "type": "basic",
+          "conditions": [
+            {
+             "type": "frontmost_application_if",
+             "bundle_identifiers": [
+                "jhdpafkbedbgckdnecbbppbpboebapeb",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.microsoft\\.VSCodeInsiders$"
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "w",
+              "modifiers": [ "left_command" ]
+            }
+          ]
+        },
+        {
           "description": "Switch between editor and panel",
           "type": "basic",
           "conditions": [
