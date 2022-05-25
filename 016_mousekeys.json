@@ -1061,6 +1061,74 @@
                 "key_code": "d"
               },
               {
+                "key_code": "o"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "strict",
+              "key_up_order": "strict_inverse",
+              "to_after_key_up": [
+                {
+                  "set_variable": {
+                    "name": "mouse_keys_mode_v4",
+                    "value": 0
+                  }
+                },
+                {
+                  "set_variable": {
+                    "name": "mouse_keys_mode_v4_scroll",
+                    "value": 0
+                  }
+                },
+                {
+                  "set_notification_message": {
+                    "id": "mouse_keys_mode_v4",
+                    "text": ""
+                  }
+                }
+              ]
+            },
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "mouse_keys_mode_v4",
+                "value": 1
+              }
+            },
+            {
+              "set_notification_message": {
+                "id": "mouse_keys_mode_v4",
+                "text": "Mouse Keys Mode v4"
+              }
+            },
+            {
+              "software_function": {
+                "set_mouse_cursor_position": {
+                  "x": "50%",
+                  "y": "50%",
+                  "screen": 1
+                }
+              }
+            }
+          ],
+          "parameters": {
+            "basic.simultaneous_threshold_milliseconds": 500
+          }
+        },
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "d"
+              },
+              {
                 "key_code": "i"
               }
             ],
