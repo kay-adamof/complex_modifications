@@ -72,7 +72,7 @@
       ]
     },
     {
-      "description": "017_a-l_to_1-9.json",
+      "description": "017_a-l_to_1-9",
       "manipulators": [
         {
           "type": "basic",
@@ -284,7 +284,228 @@
       ]
     },
     {
-      "description": "017_01_a-l_to_1-9_shifted",
+      "description": "017_a-l_to_1-9_shifted",
+      "manipulators": [
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "a"
+          },
+          "to": [
+            {
+              "key_code": "1",
+              "modifier": ["right_shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "s"
+          },
+          "to": [
+            {
+              "key_code": "2",
+              "modifier": ["right_shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "d"
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifier": ["right_shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "f"
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifier": ["right_shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "g"
+          },
+          "to": [
+            {
+              "key_code": "5",
+              "modifier": ["right_shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "h"
+          },
+          "to": [
+            {
+              "key_code": "6",
+              "modifier": ["right_shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "j"
+          },
+          "to": [
+            {
+              "key_code": "7",
+              "modifier": ["right_shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "k"
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifier": ["right_shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "l"
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifier": ["right_shift"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "017_cursor_moving",
       "manipulators": [
         {
           "type": "basic",
@@ -307,35 +528,6 @@
             {
               "key_code": "left_arrow",
               "modifiers": ["left_shift", "left_command"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "017_cursor_moving",
-      "manipulators": [
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "eisuu mode",
-              "value": 1
-            },
-            {
-              "type": "variable_if",
-              "name": "spacebar mode",
-              "value": 1
-            }
-          ],
-          "from": {
-            "key_code": "a"
-          },
-          "to": [
-            {
-              "key_code": "1",
-              "modifiers": ["right_shift"]
             }
           ]
         }
