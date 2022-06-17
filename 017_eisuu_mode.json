@@ -662,9 +662,6 @@ if spacebar-eisuu mode
             ],
             "from": {
                 "key_code": "a",
-                "modifiers": {
-                    "optional": ["right_shift"]
-                }
             },
             "to": [
                 {
