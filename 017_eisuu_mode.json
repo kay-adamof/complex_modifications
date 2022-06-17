@@ -18,6 +18,13 @@ eisuu and spacebar mode
       "manipulators": [
         {
           "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            }
+          ],
           "from": {
             "key_code": "spacebar",
             "modifiers": {
@@ -27,7 +34,7 @@ eisuu and spacebar mode
           "to": [
             {
               "set_variable": {
-                "name": "spacebar mode",
+                "name": "spacebar-eisuu mode",
                 "value": 1
               }
             }
@@ -35,7 +42,7 @@ eisuu and spacebar mode
           "to_after_key_up": [
             {
               "set_variable": {
-                "name": "spacebar mode",
+                "name": "spacebar-eisuu mode",
                 "value": 0
               }
             }
