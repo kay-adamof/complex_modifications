@@ -14,6 +14,41 @@ eisuu and spacebar mode
   "title": "017 integrate karabiner key mapping",
   "rules": [
     {
+      "description": "017 spacebar-eisuu mode",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "spacebar mode",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "spacebar mode",
+                "value": 0
+              }
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "spacebar"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "017 spacebar mode",
       "manipulators": [
         {
