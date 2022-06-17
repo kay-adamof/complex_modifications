@@ -21,6 +21,48 @@ eisuu and spacebar mode
           "conditions": [
             {
               "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "spacebar-eisuu mode",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "spacebar-eisuu mode",
+                "value": 0
+              }
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "international3",
+              "modifiers": "left_control"
+            },
+            {
+              "key_code": "n",
+              "modifiers": "left_control"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
               "name": "eisuu mode",
               "value": 1
             }
