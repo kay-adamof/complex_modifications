@@ -1,9 +1,3 @@
-eisuu mode
-  press eisuu
-    alone
-      esc
-    not alone
-      eisuu mode
 spacebar mode
   press spacebar
     alone
@@ -24,13 +18,6 @@ eisuu and spacebar mode
       "manipulators": [
         {
           "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "eisuu mode",
-              "value": 0
-            }
-          ],
           "from": {
             "key_code": "spacebar",
             "modifiers": {
@@ -39,11 +26,24 @@ eisuu and spacebar mode
           },
           "to": [
             {
-              "key_code": "fn"
+              "set_variable": {
+                "name": "spacebar mode",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "spacebar mode",
+                "value": 0
+              }
             }
           ],
           "to_if_alone": [
-            {"key_code": "spacebar"}
+            {
+              "key_code": "spacebar"
+            }
           ]
         }
       ]
