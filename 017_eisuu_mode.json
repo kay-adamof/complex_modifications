@@ -1,3 +1,10 @@
+AtoL is modified by mode;
+if eisuu mode
+1to9
+if spacebar mode
+cursor moving
+if spacebar-eisuu mode
+1to9 shifted
 {
   "title": "017 integrate karabiner key mapping",
   "rules": [
