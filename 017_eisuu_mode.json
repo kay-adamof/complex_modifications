@@ -72,7 +72,7 @@
       ]
     },
     {
-      "description": "017_01_a-l_to_1-9.json",
+      "description": "017_a-l_to_1-9.json",
       "manipulators": [
         {
           "type": "basic",
@@ -96,7 +96,12 @@
               "key_code": "1"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "description": "017_01_a-l_to_1-9_shifted",
+      "manipulators": [
         {
           "type": "basic",
           "conditions": [
@@ -120,7 +125,12 @@
               "modifiers": ["left_shift", "left_command"]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "description": "017_cursor_moving",
+      "manipulators": [
         {
           "type": "basic",
           "conditions": [
