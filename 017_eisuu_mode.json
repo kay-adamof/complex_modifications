@@ -26,7 +26,7 @@ eisuu and spacebar mode
             }
           ],
           "from": {
-            "key_code": "spacebar",
+            "key_code": "japanese_eisuu",
             "modifiers": {
               "optional": ["any"]
             }
