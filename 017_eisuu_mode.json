@@ -643,13 +643,6 @@
     },
     {
       "description": "017_01_a-l_to_1-9.json",
-AtoL is modified by mode;
-if eisuu mode
-1to9
-if spacebar mode
-cursor moving
-if spacebar-eisuu mode
-1to9 shifted
       "manipulators": [
         {
             "type": "basic",
@@ -674,6 +667,25 @@ if spacebar-eisuu mode
             "conditions": [
               {
                 "type": "variable_if",
+                "name": "spacebar mode",
+                "value": 1
+              }
+            ],
+            "from": {
+                "key_code": "a"
+            },
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": ["left_shift","left_command"]
+            }
+          ]
+        },
+        {
+            "type": "basic",
+            "conditions": [
+              {
+                "type": "variable_if",
                 "name": "spacebar-eisuu mode",
                 "value": 1
               }
@@ -685,27 +697,6 @@ if spacebar-eisuu mode
                 {
                     "key_code": "1",
                     "modifiers": [ "right_shift" ]
-                }
-            ]
-        },
-        {
-            "type": "basic",
-            "conditions": [
-              {
-                "type": "variable_if",
-                "name": "eisuu mode",
-                "value": 1
-              }
-            ],
-            "from": {
-                "key_code": "r",
-                "modifiers": {
-                    "optional": ["right_shift"]
-                }
-            },
-            "to": [
-                {
-                    "key_code": "hyphen"
                 }
             ]
         },
