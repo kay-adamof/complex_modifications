@@ -49,7 +49,12 @@ eisuu and spacebar mode
           ],
           "to_if_alone": [
             {
-              "key_code": "spacebar"
+              "key_code": "international3",
+              "modifiers": "left_control"
+            },
+            {
+              "key_code": "n",
+              "modifiers": "left_control"
             }
           ]
         }
