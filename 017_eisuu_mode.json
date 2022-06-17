@@ -674,7 +674,7 @@ if spacebar-eisuu mode
             "conditions": [
               {
                 "type": "variable_if",
-                "name": "spacebar mode",
+                "name": "spacebar-eisuu mode",
                 "value": 1
               }
             ],
