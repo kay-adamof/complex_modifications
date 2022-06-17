@@ -1,4 +1,21 @@
-
+eisuu mode
+  press eisuu
+    alone
+      esc
+    not alone
+      eisuu mode
+spacebar mode
+  press spacebar
+    alone
+      spacebar
+    not alone
+      spacebar mode
+eisuu and spacebar mode
+  press spacebar and eisuu
+    alone
+      deep escaping
+    not alone
+      spacebar and eisuu mode
 {
   "title": "017 integrate karabiner key mapping",
   "rules": [
