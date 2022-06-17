@@ -621,33 +621,6 @@
       ]
     },
     {
-      "description": "017_02_spacebar to fn",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "spacebar",
-            "modifiers": {
-              "optional": [
-                "left_option",
-                "left_shift",
-                "right_shift",
-                "left_command",
-                "right_command"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "fn",
-              "lazy": true
-            }
-          ],
-          "to_if_alone": [{ "key_code": "spacebar" }]
-        }
-      ]
-    },
-    {
       "description": "017_kana to enter",
       "manipulators": [
         {
