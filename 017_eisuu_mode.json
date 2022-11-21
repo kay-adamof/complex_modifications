@@ -2304,12 +2304,7 @@
             }
           ],
           "from": {
-            "key_code": "h",
-            "modifiers": {
-              "optional": [
-                "shift"
-              ]
-            }
+            "key_code": "h"
           },
           "to": [
             {
@@ -2337,12 +2332,7 @@
             }
           ],
           "from": {
-            "key_code": "j",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
+            "key_code": "j"
           },
           "to": [
             {
@@ -2370,12 +2360,7 @@
             }
           ],
           "from": {
-            "key_code": "k",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
+            "key_code": "k"
           },
           "to": [
             {
@@ -2403,12 +2388,7 @@
             }
           ],
           "from": {
-            "key_code": "l",
-            "modifiers": {
-              "optional": [
-                "shift"
-              ]
-            }
+            "key_code": "l"
           },
           "to": [
             {
