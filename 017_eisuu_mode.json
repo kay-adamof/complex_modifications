@@ -99,6 +99,30 @@
           ]
         },
         {
+          "description": "# Basic Utilities | capture a portion of the screen to clipboard",
+          "type": "basic",
+          "from": {
+            "key_code": "4"
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifiers": [
+                "left_shift",
+                "left_control",
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 1
+            }
+          ]
+        },
+        {
           "description": "Alfred Clipboard History",
           "type": "basic",
           "from": {
