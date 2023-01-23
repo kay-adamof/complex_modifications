@@ -5,7 +5,7 @@
       "description": "With Mouse",
       "manipulators": [
         {
-          "description": "#App Changing | #Two Finger Mode | Open Google Chrome",
+          "description": "# App Changing | # Two Finger Mode | Open Google Chrome",
           "type": "basic",
           "from": {
             "key_code": "f"
@@ -24,7 +24,7 @@
           ]
         },
         {
-          "description": "#App Changing | #Two Finger Mode | Open Kitty Terminal",
+          "description": "# App Changing | # Two Finger Mode | Open Kitty Terminal",
           "type": "basic",
           "from": {
             "key_code": "d"
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "description": "#Google Chrome | Close a Tab",
+          "description": "# Google Chrome | Close a Tab",
           "type": "basic",
           "from": {
             "key_code": "w"
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "description": "#Google Chrome | Find",
+          "description": "# Google Chrome | Find",
           "type": "basic",
           "from": {
             "key_code": "f"
