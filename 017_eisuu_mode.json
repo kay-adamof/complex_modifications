@@ -43,6 +43,56 @@
           ]
         },
         {
+          "description": "# Google Chrome | # Vimium | Go One Tab Right",
+          "type": "basic",
+          "from": {
+            "key_code": "d"
+          },
+          "to": [
+            {
+              "key_code": "l"
+            }
+          ],
+          "conditions": [
+            {
+              "file_paths": [
+                "Google Chrome"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "description": "# Google Chrome | # Vimium | Go One Tab Left",
+          "type": "basic",
+          "from": {
+            "key_code": "s"
+          },
+          "to": [
+            {
+              "key_code": "h"
+            }
+          ],
+          "conditions": [
+            {
+              "file_paths": [
+                "Google Chrome"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 1
+            }
+          ]
+        },
+        {
           "description": "# Google Chrome | Close a Tab",
           "type": "basic",
           "from": {
