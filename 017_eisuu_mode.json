@@ -2270,7 +2270,9 @@
             {
               "key_code": "y",
               "modifiers": [
-                "left_command"
+                "left_option",
+                "left_shift",
+                "left_control"
               ]
             }
           ]
@@ -2308,7 +2310,9 @@
             {
               "key_code": "u",
               "modifiers": [
-                "left_command"
+                "left_option",
+                "left_shift",
+                "left_control"
               ]
             }
           ]
@@ -5044,7 +5048,9 @@
             {
               "key_code": "y",
               "modifiers": [
-                "left_command"
+                "left_option",
+                "left_shift",
+                "left_control"
               ]
             }
           ]
@@ -5082,7 +5088,9 @@
             {
               "key_code": "u",
               "modifiers": [
-                "left_command"
+                "left_option",
+                "left_shift",
+                "left_control"
               ]
             }
           ]
