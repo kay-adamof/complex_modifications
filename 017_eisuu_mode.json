@@ -43,14 +43,19 @@
           ]
         },
         {
-          "description": "# Google Chrome | # Vimium | Go One Tab Right",
+          "description": "# Google Chrome | # MacOS | Go One Tab Right",
           "type": "basic",
           "from": {
             "key_code": "d"
           },
           "to": [
             {
-              "key_code": "l"
+              "key_code": "l",
+              "mandatory": [
+                "left_option",
+                "left_shift",
+                "left_control"
+              ]
             }
           ],
           "conditions": [
@@ -68,14 +73,19 @@
           ]
         },
         {
-          "description": "# Google Chrome | # Vimium | Go One Tab Left",
+          "description": "# Google Chrome | # MacOS | Go One Tab Left",
           "type": "basic",
           "from": {
             "key_code": "s"
           },
           "to": [
             {
-              "key_code": "h"
+              "key_code": "h",
+              "mandatory": [
+                "left_option",
+                "left_shift",
+                "left_control"
+              ]
             }
           ],
           "conditions": [
