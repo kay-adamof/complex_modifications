@@ -51,7 +51,7 @@
           "to": [
             {
               "key_code": "u",
-              "mandatory": [
+              "modifiers": [
                 "left_option",
                 "left_shift",
                 "left_control"
@@ -81,7 +81,7 @@
           "to": [
             {
               "key_code": "y",
-              "mandatory": [
+              "modifiers": [
                 "left_option",
                 "left_shift",
                 "left_control"
