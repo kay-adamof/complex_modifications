@@ -50,7 +50,7 @@
           },
           "to": [
             {
-              "key_code": "l",
+              "key_code": "u",
               "mandatory": [
                 "left_option",
                 "left_shift",
@@ -80,7 +80,7 @@
           },
           "to": [
             {
-              "key_code": "h",
+              "key_code": "y",
               "mandatory": [
                 "left_option",
                 "left_shift",
