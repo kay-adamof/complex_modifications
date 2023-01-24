@@ -152,7 +152,7 @@
           "description": "# Basic Utilities | capture a portion of the screen to clipboard",
           "type": "basic",
           "from": {
-            "key_code": "4"
+            "key_code": "r"
           },
           "to": [
             {
