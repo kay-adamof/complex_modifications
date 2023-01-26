@@ -114,6 +114,44 @@
           ]
         },
         {
+          "description": "# Google Chrome | Open in a new tab",
+          "type": "basic",
+          "from": {
+            "key_code": "t"
+          },
+          "to": [
+            {
+              "software_function": {
+                "cg_event_double_click": {
+                  "button": 1
+                }
+              },
+              "hold_down_milliseconds": 100
+            },
+            {
+              "key_code": "o",
+              "hold_down_milliseconds": 100
+            },
+            {
+              "key_code": "return_or_enter",
+              "hold_down_milliseconds": 100
+            }
+          ],
+          "conditions": [
+            {
+              "file_paths": [
+                "Google Chrome"
+              ],
+              "type": "frontmost_application_if"
+            },
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 1
+            }
+          ]
+        },
+        {
           "description": "# Google Chrome | Copy Link to Highlight",
           "type": "basic",
           "from": {
