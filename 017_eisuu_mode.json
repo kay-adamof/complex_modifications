@@ -313,7 +313,7 @@
           "description": "# Basic Utilities | capture a portion of the screen to storage",
           "type": "basic",
           "from": {
-            "key_code": "t"
+            "key_code": "d"
           },
           "to": [
             {
@@ -336,7 +336,7 @@
           "description": "# Basic Utilities | capture a portion of the screen to clipboard",
           "type": "basic",
           "from": {
-            "key_code": "r"
+            "key_code": "f"
           },
           "to": [
             {
