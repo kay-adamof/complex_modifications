@@ -310,6 +310,29 @@
           ]
         },
         {
+          "description": "# Basic Utilities | capture a portion of the screen to storage",
+          "type": "basic",
+          "from": {
+            "key_code": "t"
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifiers": [
+                "left_control",
+                "left_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 1
+            }
+          ]
+        },
+        {
           "description": "# Basic Utilities | capture a portion of the screen to clipboard",
           "type": "basic",
           "from": {
