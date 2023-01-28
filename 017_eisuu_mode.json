@@ -98,7 +98,7 @@
           "description": "# App Changing | # Two Finger Mode | Open Brave Browser",
           "type": "basic",
           "from": {
-            "key_code": "f"
+            "key_code": "b"
           },
           "to": [
             {
