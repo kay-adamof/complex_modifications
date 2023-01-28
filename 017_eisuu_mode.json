@@ -344,11 +344,11 @@
               "modifiers": [
                 "left_shift",
                 "left_command"
-              ]
+              ],
+              "hold_down_milliseconds": 200
             },
             {
-              "key_code": "spacebar",
-              "repeat": false
+              "key_code": "spacebar"
             }
           ],
           "conditions": [
