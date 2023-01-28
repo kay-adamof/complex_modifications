@@ -333,6 +333,32 @@
           ]
         },
         {
+          "description": "# Basic Utilities | capture a selected window to storage",
+          "type": "basic",
+          "from": {
+            "key_code": "s"
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
+            },
+            {
+              "key_code": "spacebar"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 3
+            }
+          ]
+        },
+        {
           "description": "# Basic Utilities | capture a portion of the screen to clipboard",
           "type": "basic",
           "from": {
