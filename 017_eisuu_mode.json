@@ -15,7 +15,10 @@
               {
                 "key_code": "f"
               }
-            ]
+            ],
+            "simultaneous_options": {
+              "key_down_order": "strict"
+            }
           },
           "to": [
             {
@@ -48,7 +51,10 @@
               {
                 "key_code": "f"
               }
-            ]
+            ],
+            "simultaneous_options": {
+              "key_down_order": "strict"
+            }
           },
           "to": [
             {
