@@ -4787,7 +4787,7 @@
       "description": "Screenshot",
       "manipulators": [
         {
-          "description": "To store a part of the screen on clipboard",
+          "description": "Capture the entire window to clipboard",
           "type": "basic",
           "conditions": [
             {
@@ -4807,11 +4807,11 @@
             }
           ],
           "from": {
-            "key_code": "4"
+            "key_code": "3"
           },
           "to": [
             {
-              "key_code": "4",
+              "key_code": "3",
               "modifiers": [
                 "left_shift",
                 "left_control",
