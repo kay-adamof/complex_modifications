@@ -4807,6 +4807,39 @@
             }
           ],
           "from": {
+            "key_code": "4"
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": [
+                "left_control",
+                "left_command"
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Capture the entire window to clipboard",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "kana mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 0
+            }
+          ],
+          "from": {
             "key_code": "3"
           },
           "to": [
