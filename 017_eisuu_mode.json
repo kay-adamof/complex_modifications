@@ -4787,7 +4787,7 @@
       "description": "Screenshot",
       "manipulators": [
         {
-          "description": "Capture the entire window to clipboard",
+          "description": "Capture the entire window saved to directory",
           "type": "basic",
           "conditions": [
             {
