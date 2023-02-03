@@ -4826,7 +4826,7 @@
             {
               "type": "variable_if",
               "name": "kana mode",
-              "value": 0
+              "value": 1
             },
             {
               "type": "variable_if",
@@ -4840,7 +4840,7 @@
             }
           ],
           "from": {
-            "key_code": "quote"
+            "key_code": "semicolon"
           },
           "to": [
             {
