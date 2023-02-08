@@ -1899,6 +1899,35 @@
           ]
         },
         {
+          "description": "open Obsidian",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "kana mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 0
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "r"
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Obsidian'"
+            }
+          ]
+        },
+        {
           "description": "Close an app",
           "type": "basic",
           "conditions": [
