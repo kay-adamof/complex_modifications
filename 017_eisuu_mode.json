@@ -5617,6 +5617,49 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Obsidian",
+      "manipulators": [
+        {
+          "description": "Open Command Pallet",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "kana mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 0
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 0
+            },
+            {
+              "file_paths": [
+                "Obsidian"
+              ],
+              "type": "frontmost_application_if"
+            }
+          ],
+          "from": {
+            "key_code": "j"
+          },
+          "to": [
+            {
+              "key_code": "p",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
