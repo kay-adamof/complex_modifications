@@ -5690,7 +5690,7 @@
           },
           "to": [
             {
-              "key_code": "j",
+              "key_code": "f",
               "modifiers": [
                 "left_command",
                 "left_shift"
