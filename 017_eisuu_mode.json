@@ -5855,6 +5855,49 @@
           ]
         }
       ]
-    }
+    },
+    {
+      "description": "Filmora App",
+      "manipulators": [
+        {
+          "description": "Split",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "kana mode",
+              "value": 0
+            },
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 0
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 1
+            },
+            {
+              "file_paths": [
+                "Wondershare Filmora X"
+              ],
+              "type": "frontmost_application_if"
+            }
+          ],
+          "from": {
+            "key_code": "2"
+          },
+          "to": [
+            {
+              "key_code": "b",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
   ]
 }
