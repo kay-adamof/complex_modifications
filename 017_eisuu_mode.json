@@ -683,6 +683,43 @@
       ]
     },
     {
+      "description": "Caps Lock Mode",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "eisuu mode",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "eisuu mode",
+                "value": 0
+              }
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "escape"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "017_01_a-l_to_1-9",
       "manipulators": [
         {
@@ -5860,23 +5897,24 @@
       "description": "Filmora App",
       "manipulators": [
         {
-          "description": "Split",
+          "description": "# 4 Finger Mode | View, Go to, Beginning",
           "type": "basic",
+          "from": {
+            "key_code": "w"
+          },
+          "to": [
+            {
+              "key_code": "home",
+              "modifiers": [
+                "fn"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "variable_if",
-              "name": "kana mode",
-              "value": 0
-            },
-            {
-              "type": "variable_if",
-              "name": "spacebar mode",
-              "value": 0
-            },
-            {
-              "type": "variable_if",
-              "name": "eisuu mode",
-              "value": 1
+              "name": "multitouch_extension_finger_count_total",
+              "value": 4
             },
             {
               "file_paths": [
@@ -5884,9 +5922,91 @@
               ],
               "type": "frontmost_application_if"
             }
-          ],
+          ]
+        },
+        {
+          "description": "# 4 Finger Mode | View, Go to, End",
+          "type": "basic",
           "from": {
-            "key_code": "2"
+            "key_code": "e"
+          },
+          "to": [
+            {
+              "key_code": "end",
+              "modifiers": [
+                "fn"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 4
+            },
+            {
+              "file_paths": [
+                "Wondershare Filmora X"
+              ],
+              "type": "frontmost_application_if"
+            }
+          ]
+        },
+        {
+          "description": "# 4 Finger Mode | Previous Frame",
+          "type": "basic",
+          "from": {
+            "key_code": "a"
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 4
+            },
+            {
+              "file_paths": [
+                "Wondershare Filmora X"
+              ],
+              "type": "frontmost_application_if"
+            }
+          ]
+        },
+        {
+          "description": "# 4 Finger Mode | Next Frame",
+          "type": "basic",
+          "from": {
+            "key_code": "f"
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 4
+            },
+            {
+              "file_paths": [
+                "Wondershare Filmora X"
+              ],
+              "type": "frontmost_application_if"
+            }
+          ]
+        },
+        {
+          "description": "# 4 Finger Mode | Split",
+          "type": "basic",
+          "from": {
+            "key_code": "s"
           },
           "to": [
             {
@@ -5895,9 +6015,22 @@
                 "left_command"
               ]
             }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 4
+            },
+            {
+              "file_paths": [
+                "Wondershare Filmora X"
+              ],
+              "type": "frontmost_application_if"
+            }
           ]
         }
       ]
-    },
+    } 
   ]
 }
