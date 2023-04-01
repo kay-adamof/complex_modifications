@@ -3885,6 +3885,34 @@
       "description": "017_VScode",
       "manipulators": [
         {
+          "description": "# 4 Finger Mode | Quick Fix",
+          "type": "basic",
+          "from": {
+            "key_code": "f"
+          },
+          "to": [
+            {
+              "key_code": "period",
+              "modifiers": [
+                "right_command"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "multitouch_extension_finger_count_total",
+              "value": 4
+            },
+            {
+              "file_paths": [
+                "Visual Studio Code"
+              ],
+              "type": "frontmost_application_if"
+            }
+          ]
+        },
+        {
           "description": "Insert a Line below",
           "type": "basic",
           "conditions": [
