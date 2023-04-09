@@ -136,7 +136,7 @@
           "description": "# App Changing | # Two Finger Mode | Notion ",
           "type": "basic",
           "from": {
-            "key_code": "n"
+            "key_code": "v"
           },
           "to": [
             {
