@@ -2,8 +2,30 @@
   "title": "017 integrate karabiner key mapping",
   "rules": [
     {
-      "description": "Input Source",
+      "description": "Input Source | jk",
       "manipulators": [
+        {
+          "description": "# Input Source | Open Emoji selector",
+          "type": "basic",
+          "from": {
+            "key_code": "left_control",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_control",
+              "lazy": true
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "e",
+              "modifiers": ["left_shift", "left_command"]
+            }
+          ]
+        },
         {
           "description": "# Input Source | Change English input source to Japanese",
           "type": "basic",
@@ -1611,7 +1633,7 @@
       ]
     },
     {
-      "description": "017_switch inpur source",
+      "description": "017_switch inpur source | # Deprecated",
       "manipulators": [
         {
           "type": "basic",
