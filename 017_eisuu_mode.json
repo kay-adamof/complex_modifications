@@ -5,36 +5,6 @@
       "description": "Input Source",
       "manipulators": [
         {
-          "description": "# Input Source | Open Emoji Selector with just pressing ctrl key ",
-          "type": "basic",
-          "from": {
-            "simultaneous": [
-              {
-                "key_code": "j"
-              },
-              {
-                "key_code": "f"
-              }
-            ]
-          },
-          "to": [
-            {
-              "key_code": "j",
-              "modifiers": ["left_shift", "left_control"]
-            }
-          ],
-          "conditions": [
-            {
-              "input_sources": [
-                {
-                  "language": "en"
-                }
-              ],
-              "type": "input_source_if"
-            }
-          ]
-        },
-        {
           "description": "# Input Source | Change English input source to Japanese",
           "type": "basic",
           "from": {
