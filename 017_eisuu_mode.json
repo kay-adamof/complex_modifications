@@ -2,7 +2,7 @@
   "title": "017 integrate karabiner key mapping",
   "rules": [
     {
-      "description": "Input Source | jk",
+      "description": "Input Source",
       "manipulators": [
         {
           "description": "# Input Source | Open Emoji selector",
