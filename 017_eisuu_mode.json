@@ -4895,40 +4895,6 @@
           ]
         },
         {
-          "description": "open PDF Previewer",
-          "type": "basic",
-          "from": {
-            "key_code": "v",
-            "modifiers": {
-              "mandatory": ["left_option"]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Preview'",
-              "hold_down_milliseconds": 100
-            },
-            {
-              "key_code": "f",
-              "modifiers": ["left_command"],
-              "hold_down_milliseconds": 100
-            },
-            {
-              "key_code": "v",
-              "modifiers": ["left_command"],
-              "hold_down_milliseconds": 100
-            },
-            {
-              "key_code": "tab",
-              "hold_down_milliseconds": 100
-            },
-            {
-              "key_code": "tab",
-              "hold_down_milliseconds": 100
-            }
-          ]
-        },
-        {
           "description": "open deepl in chrome",
           "type": "basic",
           "from": {
