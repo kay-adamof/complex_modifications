@@ -4143,6 +4143,84 @@
       "description": "Kitty App",
       "manipulators": [
         {
+          "description": "Go to previous buffer",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "kana mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 0
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 0
+            },
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "j"
+          },
+          "to": [
+            {
+              "key_code": "close_bracket",
+              "hold_down_milliseconds": 10
+            },
+            {
+              "key_code": "b"
+            }
+          ]
+        },
+        {
+          "description": "Go to next buffer",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "kana mode",
+              "value": 1
+            },
+            {
+              "type": "variable_if",
+              "name": "spacebar mode",
+              "value": 0
+            },
+            {
+              "type": "variable_if",
+              "name": "eisuu mode",
+              "value": 0
+            },
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "k"
+          },
+          "to": [
+            {
+              "key_code": "backslash",
+              "hold_down_milliseconds": 10
+            },
+            {
+              "key_code": "b"
+            }
+          ]
+        },
+        {
           "description": "Move tab backward",
           "type": "basic",
           "conditions": [
