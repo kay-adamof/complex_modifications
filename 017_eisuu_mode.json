@@ -10,7 +10,9 @@
           "from": {
             "key_code": "left_control",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -41,7 +43,10 @@
           "to": [
             {
               "key_code": "j",
-              "modifiers": ["left_shift", "left_control"]
+              "modifiers": [
+                "left_shift",
+                "left_control"
+              ]
             }
           ],
           "conditions": [
@@ -71,7 +76,10 @@
           "to": [
             {
               "key_code": "semicolon",
-              "modifiers": ["left_shift", "left_control"]
+              "modifiers": [
+                "left_shift",
+                "left_control"
+              ]
             }
           ],
           "conditions": [
@@ -249,7 +257,9 @@
           ],
           "conditions": [
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             },
             {
@@ -289,7 +299,9 @@
           ],
           "conditions": [
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             },
             {
@@ -308,12 +320,18 @@
           "to": [
             {
               "key_code": "u",
-              "modifiers": ["left_option", "left_shift", "left_control"]
+              "modifiers": [
+                "left_option",
+                "left_shift",
+                "left_control"
+              ]
             }
           ],
           "conditions": [
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             },
             {
@@ -332,12 +350,18 @@
           "to": [
             {
               "key_code": "y",
-              "modifiers": ["left_option", "left_shift", "left_control"]
+              "modifiers": [
+                "left_option",
+                "left_shift",
+                "left_control"
+              ]
             }
           ],
           "conditions": [
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             },
             {
@@ -356,12 +380,16 @@
           "to": [
             {
               "key_code": "w",
-              "modifiers": ["right_command"]
+              "modifiers": [
+                "right_command"
+              ]
             }
           ],
           "conditions": [
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             },
             {
@@ -380,12 +408,16 @@
           "to": [
             {
               "key_code": "f",
-              "modifiers": ["right_command"]
+              "modifiers": [
+                "right_command"
+              ]
             }
           ],
           "conditions": [
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             },
             {
@@ -404,7 +436,10 @@
           "to": [
             {
               "key_code": "4",
-              "modifiers": ["left_shift", "left_command"]
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
             }
           ],
           "conditions": [
@@ -424,7 +459,10 @@
           "to": [
             {
               "key_code": "4",
-              "modifiers": ["left_shift", "left_command"],
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ],
               "hold_down_milliseconds": 200
             },
             {
@@ -448,7 +486,11 @@
           "to": [
             {
               "key_code": "4",
-              "modifiers": ["left_shift", "left_control", "left_command"]
+              "modifiers": [
+                "left_shift",
+                "left_control",
+                "left_command"
+              ]
             }
           ],
           "conditions": [
@@ -468,7 +510,9 @@
           "to": [
             {
               "key_code": "z",
-              "modifiers": ["left_option"]
+              "modifiers": [
+                "left_option"
+              ]
             }
           ],
           "conditions": [
@@ -488,7 +532,9 @@
           "to": [
             {
               "key_code": "spacebar",
-              "modifiers": ["left_option"]
+              "modifiers": [
+                "left_option"
+              ]
             }
           ],
           "conditions": [
@@ -508,7 +554,9 @@
           "to": [
             {
               "key_code": "x",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ],
           "conditions": [
@@ -528,7 +576,9 @@
           "to": [
             {
               "key_code": "c",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ],
           "conditions": [
@@ -548,7 +598,9 @@
           "to": [
             {
               "key_code": "v",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ],
           "conditions": [
@@ -569,7 +621,9 @@
           "from": {
             "key_code": "japanese_kana",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -604,7 +658,9 @@
           "from": {
             "key_code": "spacebar",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -639,7 +695,9 @@
           "from": {
             "key_code": "japanese_eisuu",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -674,7 +732,9 @@
           "from": {
             "key_code": "caps_lock",
             "modifiers": {
-              "optional": ["any"]
+              "optional": [
+                "any"
+              ]
             }
           },
           "to": [
@@ -721,7 +781,9 @@
           "from": {
             "key_code": "a",
             "modifiers": {
-              "optional": ["left_control"]
+              "optional": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -747,7 +809,9 @@
           "from": {
             "key_code": "s",
             "modifiers": {
-              "optional": ["left_control"]
+              "optional": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -773,7 +837,9 @@
           "from": {
             "key_code": "d",
             "modifiers": {
-              "optional": ["left_control"]
+              "optional": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -799,7 +865,9 @@
           "from": {
             "key_code": "f",
             "modifiers": {
-              "optional": ["left_control"]
+              "optional": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -825,7 +893,9 @@
           "from": {
             "key_code": "g",
             "modifiers": {
-              "optional": ["left_control"]
+              "optional": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -851,7 +921,9 @@
           "from": {
             "key_code": "h",
             "modifiers": {
-              "optional": ["left_control"]
+              "optional": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -877,7 +949,9 @@
           "from": {
             "key_code": "j",
             "modifiers": {
-              "optional": ["left_control"]
+              "optional": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -903,7 +977,9 @@
           "from": {
             "key_code": "k",
             "modifiers": {
-              "optional": ["left_control"]
+              "optional": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -929,7 +1005,9 @@
           "from": {
             "key_code": "l",
             "modifiers": {
-              "optional": ["left_control"]
+              "optional": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -958,7 +1036,9 @@
           "to": [
             {
               "key_code": "1",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -982,7 +1062,9 @@
           "to": [
             {
               "key_code": "2",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1006,7 +1088,9 @@
           "to": [
             {
               "key_code": "3",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1030,7 +1114,9 @@
           "to": [
             {
               "key_code": "4",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1054,7 +1140,9 @@
           "to": [
             {
               "key_code": "5",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1078,7 +1166,9 @@
           "to": [
             {
               "key_code": "6",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1102,7 +1192,9 @@
           "to": [
             {
               "key_code": "7",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1126,7 +1218,9 @@
           "to": [
             {
               "key_code": "8",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1150,7 +1244,9 @@
           "to": [
             {
               "key_code": "9",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         }
@@ -1409,7 +1505,9 @@
           "to": [
             {
               "key_code": "hyphen",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1433,7 +1531,9 @@
           "to": [
             {
               "key_code": "quote",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1457,7 +1557,9 @@
           "to": [
             {
               "key_code": "close_bracket",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1481,7 +1583,9 @@
           "to": [
             {
               "key_code": "backslash",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1505,7 +1609,9 @@
           "to": [
             {
               "key_code": "comma",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1529,7 +1635,9 @@
           "to": [
             {
               "key_code": "period",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1553,7 +1661,9 @@
           "to": [
             {
               "key_code": "slash",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1577,7 +1687,9 @@
           "to": [
             {
               "key_code": "international3",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1601,7 +1713,9 @@
           "to": [
             {
               "key_code": "open_bracket",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1625,7 +1739,9 @@
           "to": [
             {
               "key_code": "equal_sign",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         }
@@ -1648,7 +1764,10 @@
           "to_if_alone": [
             {
               "key_code": "c",
-              "modifiers": ["left_control", "left_shift"]
+              "modifiers": [
+                "left_control",
+                "left_shift"
+              ]
             }
           ]
         },
@@ -1666,7 +1785,10 @@
           "to_if_alone": [
             {
               "key_code": "b",
-              "modifiers": ["left_control", "left_shift"]
+              "modifiers": [
+                "left_control",
+                "left_shift"
+              ]
             }
           ]
         },
@@ -1684,7 +1806,10 @@
           "to_if_alone": [
             {
               "key_code": "z",
-              "modifiers": ["left_control", "left_shift"]
+              "modifiers": [
+                "left_control",
+                "left_shift"
+              ]
             }
           ]
         }
@@ -1713,7 +1838,9 @@
           "to": [
             {
               "key_code": "c",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -1737,7 +1864,9 @@
           "to": [
             {
               "key_code": "v",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -1761,7 +1890,9 @@
           "to": [
             {
               "key_code": "x",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -1785,7 +1916,9 @@
           "to": [
             {
               "key_code": "z",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         }
@@ -1799,13 +1932,17 @@
           "from": {
             "key_code": "quote",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "tab",
-              "modifiers": ["right_shift"]
+              "modifiers": [
+                "right_shift"
+              ]
             }
           ]
         },
@@ -1814,7 +1951,9 @@
           "from": {
             "key_code": "semicolon",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -1912,7 +2051,9 @@
           "to": [
             {
               "key_code": "q",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -1939,13 +2080,17 @@
           "from": {
             "key_code": "semicolon",
             "modifiers": {
-              "optional": ["shift"]
+              "optional": [
+                "shift"
+              ]
             }
           },
           "to": [
             {
               "key_code": "open_bracket",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -1975,7 +2120,9 @@
           "to": [
             {
               "key_code": "spacebar",
-              "modifiers": ["left_option"]
+              "modifiers": [
+                "left_option"
+              ]
             }
           ]
         },
@@ -2005,7 +2152,9 @@
           "to": [
             {
               "key_code": "z",
-              "modifiers": ["left_option"]
+              "modifiers": [
+                "left_option"
+              ]
             }
           ]
         },
@@ -2068,12 +2217,16 @@
             },
             {
               "key_code": "f",
-              "modifiers": ["left_command"],
+              "modifiers": [
+                "left_command"
+              ],
               "hold_down_milliseconds": 100
             },
             {
               "key_code": "v",
-              "modifiers": ["left_command"],
+              "modifiers": [
+                "left_command"
+              ],
               "hold_down_milliseconds": 100
             },
             {
@@ -2106,7 +2259,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Chrome_DeepL.app"],
+              "file_paths": [
+                "Chrome_DeepL.app"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -2116,7 +2271,11 @@
           "to": [
             {
               "key_code": "3",
-              "modifiers": ["left_command", "left_control", "left_shift"],
+              "modifiers": [
+                "left_command",
+                "left_control",
+                "left_shift"
+              ],
               "hold_down_milliseconds": 100
             },
             {
@@ -2129,7 +2288,9 @@
             },
             {
               "key_code": "v",
-              "modifiers": ["left_command"],
+              "modifiers": [
+                "left_command"
+              ],
               "hold_down_milliseconds": 100
             },
             {
@@ -2168,7 +2329,9 @@
           "to": [
             {
               "key_code": "c",
-              "modifiers": ["left_command"],
+              "modifiers": [
+                "left_command"
+              ],
               "hold_down_milliseconds": 100
             },
             {
@@ -2189,12 +2352,16 @@
             },
             {
               "key_code": "a",
-              "modifiers": ["left_command"],
+              "modifiers": [
+                "left_command"
+              ],
               "hold_down_milliseconds": 100
             },
             {
               "key_code": "v",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -2339,20 +2506,27 @@
               "value": 0
             },
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             }
           ],
           "from": {
             "key_code": "k",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "return_or_enter",
-              "modifiers": ["left_command", "left_shift"]
+              "modifiers": [
+                "left_command",
+                "left_shift"
+              ]
             }
           ]
         },
@@ -2376,20 +2550,26 @@
               "value": 0
             },
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             }
           ],
           "from": {
             "key_code": "j",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "return_or_enter",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -2413,7 +2593,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -2423,7 +2605,10 @@
           "to": [
             {
               "key_code": "j",
-              "modifiers": ["left_shift", "left_option"],
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ],
               "hold_down_milliseconds": 100
             }
           ]
@@ -2448,7 +2633,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -2458,7 +2645,10 @@
           "to": [
             {
               "key_code": "i",
-              "modifiers": ["left_command", "left_option"]
+              "modifiers": [
+                "left_command",
+                "left_option"
+              ]
             }
           ]
         },
@@ -2482,7 +2672,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -2492,7 +2684,9 @@
           "to": [
             {
               "key_code": "r",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -2516,7 +2710,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -2526,7 +2722,11 @@
           "to": [
             {
               "key_code": "y",
-              "modifiers": ["left_option", "left_shift", "left_control"]
+              "modifiers": [
+                "left_option",
+                "left_shift",
+                "left_control"
+              ]
             }
           ]
         },
@@ -2550,7 +2750,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -2560,7 +2762,11 @@
           "to": [
             {
               "key_code": "u",
-              "modifiers": ["left_option", "left_shift", "left_control"]
+              "modifiers": [
+                "left_option",
+                "left_shift",
+                "left_control"
+              ]
             }
           ]
         },
@@ -2584,7 +2790,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -2594,7 +2802,9 @@
           "to": [
             {
               "key_code": "close_bracket",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -2618,7 +2828,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -2628,7 +2840,9 @@
           "to": [
             {
               "key_code": "backslash",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -2652,7 +2866,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Google Chrome"],
+              "file_paths": [
+                "Google Chrome"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -2662,7 +2878,9 @@
           "to": [
             {
               "key_code": "w",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         }
@@ -2697,7 +2915,9 @@
           "to": [
             {
               "key_code": "y",
-              "modifiers": ["right_command"]
+              "modifiers": [
+                "right_command"
+              ]
             }
           ]
         },
@@ -2727,7 +2947,9 @@
           "to": [
             {
               "key_code": "u",
-              "modifiers": ["right_command"]
+              "modifiers": [
+                "right_command"
+              ]
             }
           ]
         },
@@ -2757,7 +2979,9 @@
           "to": [
             {
               "key_code": "a",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -2898,7 +3122,9 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": ["left_option"]
+              "modifiers": [
+                "left_option"
+              ]
             }
           ]
         },
@@ -2927,7 +3153,9 @@
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": ["left_option"]
+              "modifiers": [
+                "left_option"
+              ]
             }
           ]
         },
@@ -2957,7 +3185,9 @@
           "to": [
             {
               "key_code": "down_arrow",
-              "modifiers": ["left_shift"]
+              "modifiers": [
+                "left_shift"
+              ]
             }
           ]
         },
@@ -2987,7 +3217,9 @@
           "to": [
             {
               "key_code": "up_arrow",
-              "modifiers": ["left_shift"]
+              "modifiers": [
+                "left_shift"
+              ]
             }
           ]
         },
@@ -3072,7 +3304,10 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": ["left_shift", "left_command"]
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
             }
           ]
         },
@@ -3101,7 +3336,10 @@
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": ["left_shift", "left_command"]
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
             }
           ]
         },
@@ -3130,7 +3368,10 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": ["left_shift", "left_option"]
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
             }
           ]
         },
@@ -3159,7 +3400,10 @@
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": ["left_shift", "left_option"]
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
             }
           ]
         },
@@ -3250,7 +3494,11 @@
           "to": [
             {
               "key_code": "n",
-              "modifiers": ["left_command", "left_option", "left_control"]
+              "modifiers": [
+                "left_command",
+                "left_option",
+                "left_control"
+              ]
             }
           ]
         },
@@ -3280,7 +3528,11 @@
           "to": [
             {
               "key_code": "m",
-              "modifiers": ["left_command", "left_option", "left_control"]
+              "modifiers": [
+                "left_command",
+                "left_option",
+                "left_control"
+              ]
             }
           ]
         },
@@ -3307,13 +3559,19 @@
           "from": {
             "key_code": "1",
             "modifiers": {
-              "mandatory": ["left_shift"]
+              "mandatory": [
+                "left_shift"
+              ]
             }
           },
           "to": [
             {
               "key_code": "1",
-              "modifiers": ["left_command", "left_option", "left_control"]
+              "modifiers": [
+                "left_command",
+                "left_option",
+                "left_control"
+              ]
             }
           ]
         },
@@ -3340,13 +3598,19 @@
           "from": {
             "key_code": "2",
             "modifiers": {
-              "mandatory": ["left_shift"]
+              "mandatory": [
+                "left_shift"
+              ]
             }
           },
           "to": [
             {
               "key_code": "2",
-              "modifiers": ["left_command", "left_option", "left_control"]
+              "modifiers": [
+                "left_command",
+                "left_option",
+                "left_control"
+              ]
             }
           ]
         },
@@ -3373,13 +3637,19 @@
           "from": {
             "key_code": "3",
             "modifiers": {
-              "mandatory": ["left_shift"]
+              "mandatory": [
+                "left_shift"
+              ]
             }
           },
           "to": [
             {
               "key_code": "3",
-              "modifiers": ["left_command", "left_option", "left_control"]
+              "modifiers": [
+                "left_command",
+                "left_option",
+                "left_control"
+              ]
             }
           ]
         },
@@ -3406,13 +3676,19 @@
           "from": {
             "key_code": "4",
             "modifiers": {
-              "mandatory": ["left_shift"]
+              "mandatory": [
+                "left_shift"
+              ]
             }
           },
           "to": [
             {
               "key_code": "4",
-              "modifiers": ["left_command", "left_option", "left_control"]
+              "modifiers": [
+                "left_command",
+                "left_option",
+                "left_control"
+              ]
             }
           ]
         },
@@ -3442,7 +3718,11 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": ["left_command", "left_option", "left_control"]
+              "modifiers": [
+                "left_command",
+                "left_option",
+                "left_control"
+              ]
             }
           ]
         },
@@ -3472,7 +3752,11 @@
           "to": [
             {
               "key_code": "down_arrow",
-              "modifiers": ["left_command", "left_option", "left_control"]
+              "modifiers": [
+                "left_command",
+                "left_option",
+                "left_control"
+              ]
             }
           ]
         },
@@ -3502,7 +3786,11 @@
           "to": [
             {
               "key_code": "up_arrow",
-              "modifiers": ["left_command", "left_option", "left_control"]
+              "modifiers": [
+                "left_command",
+                "left_option",
+                "left_control"
+              ]
             }
           ]
         },
@@ -3532,7 +3820,11 @@
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": ["left_command", "left_option", "left_control"]
+              "modifiers": [
+                "left_command",
+                "left_option",
+                "left_control"
+              ]
             }
           ]
         }
@@ -3632,7 +3924,9 @@
           "to": [
             {
               "key_code": "period",
-              "modifiers": ["right_command"]
+              "modifiers": [
+                "right_command"
+              ]
             }
           ],
           "conditions": [
@@ -3642,7 +3936,9 @@
               "value": 4
             },
             {
-              "file_paths": ["Visual Studio Code"],
+              "file_paths": [
+                "Visual Studio Code"
+              ],
               "type": "frontmost_application_if"
             }
           ]
@@ -3678,13 +3974,18 @@
           "from": {
             "key_code": "j",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "j",
-              "modifiers": ["left_control", "left_option"]
+              "modifiers": [
+                "left_control",
+                "left_option"
+              ]
             }
           ]
         },
@@ -3719,13 +4020,18 @@
           "from": {
             "key_code": "k",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "k",
-              "modifiers": ["left_control", "left_option"]
+              "modifiers": [
+                "left_control",
+                "left_option"
+              ]
             }
           ]
         },
@@ -3763,7 +4069,10 @@
           "to": [
             {
               "key_code": "p",
-              "modifiers": ["left_command", "left_shift"]
+              "modifiers": [
+                "left_command",
+                "left_shift"
+              ]
             }
           ]
         },
@@ -3801,7 +4110,9 @@
           "to": [
             {
               "key_code": "w",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -3839,11 +4150,15 @@
           "to": [
             {
               "key_code": "k",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             },
             {
               "key_code": "p",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -3881,7 +4196,10 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": ["left_command", "left_option"]
+              "modifiers": [
+                "left_command",
+                "left_option"
+              ]
             }
           ]
         },
@@ -3916,7 +4234,9 @@
           "from": {
             "key_code": "h",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -3960,7 +4280,9 @@
           "from": {
             "key_code": "j",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -4004,7 +4326,9 @@
           "from": {
             "key_code": "k",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -4048,7 +4372,9 @@
           "from": {
             "key_code": "l",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -4095,7 +4421,10 @@
           "to": [
             {
               "key_code": "close_bracket",
-              "modifiers": ["left_command", "left_shift"]
+              "modifiers": [
+                "left_command",
+                "left_shift"
+              ]
             }
           ]
         },
@@ -4133,7 +4462,10 @@
           "to": [
             {
               "key_code": "backslash",
-              "modifiers": ["left_command", "left_shift"]
+              "modifiers": [
+                "left_command",
+                "left_shift"
+              ]
             }
           ]
         }
@@ -4241,7 +4573,9 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
@@ -4250,7 +4584,10 @@
           "to": [
             {
               "key_code": "period",
-              "modifiers": ["left_shift", "left_control"]
+              "modifiers": [
+                "left_shift",
+                "left_control"
+              ]
             }
           ]
         },
@@ -4275,7 +4612,9 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
@@ -4284,7 +4623,10 @@
           "to": [
             {
               "key_code": "comma",
-              "modifiers": ["left_shift", "left_control"]
+              "modifiers": [
+                "left_shift",
+                "left_control"
+              ]
             }
           ]
         },
@@ -4309,7 +4651,9 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
@@ -4318,7 +4662,10 @@
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": ["left_shift", "left_control"]
+              "modifiers": [
+                "left_shift",
+                "left_control"
+              ]
             }
           ]
         },
@@ -4343,7 +4690,9 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
@@ -4352,7 +4701,10 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": ["left_shift", "left_control"]
+              "modifiers": [
+                "left_shift",
+                "left_control"
+              ]
             }
           ]
         },
@@ -4377,19 +4729,26 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
             "key_code": "equal_sign",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "semicolon",
-              "modifiers": ["left_shift", "left_command"]
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
             }
           ]
         },
@@ -4414,19 +4773,25 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
             "key_code": "0",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "0",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -4451,19 +4816,25 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
             "key_code": "hyphen",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "hyphen",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -4488,7 +4859,9 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
@@ -4497,7 +4870,9 @@
           "to": [
             {
               "key_code": "t",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -4522,7 +4897,9 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
@@ -4531,7 +4908,9 @@
           "to": [
             {
               "key_code": "w",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -4556,19 +4935,26 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
             "key_code": "j",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "j",
-              "modifiers": ["left_control", "left_option"]
+              "modifiers": [
+                "left_control",
+                "left_option"
+              ]
             }
           ]
         },
@@ -4593,19 +4979,26 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
             "key_code": "k",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "k",
-              "modifiers": ["left_control", "left_option"]
+              "modifiers": [
+                "left_control",
+                "left_option"
+              ]
             }
           ]
         },
@@ -4630,13 +5023,17 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
             "key_code": "h",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -4670,13 +5067,17 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
             "key_code": "j",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -4710,13 +5111,17 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
             "key_code": "k",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -4750,13 +5155,17 @@
             },
             {
               "type": "frontmost_application_if",
-              "bundle_identifiers": ["^net\\.kovidgoyal\\.kitty$"]
+              "bundle_identifiers": [
+                "^net\\.kovidgoyal\\.kitty$"
+              ]
             }
           ],
           "from": {
             "key_code": "l",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
@@ -4800,7 +5209,10 @@
           "to": [
             {
               "key_code": "3",
-              "modifiers": ["left_shift", "left_command"]
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
             }
           ]
         },
@@ -4830,7 +5242,11 @@
           "to": [
             {
               "key_code": "3",
-              "modifiers": ["left_shift", "left_control", "left_command"]
+              "modifiers": [
+                "left_shift",
+                "left_control",
+                "left_command"
+              ]
             }
           ]
         }
@@ -4845,13 +5261,18 @@
           "from": {
             "key_code": "t",
             "modifiers": {
-              "mandatory": ["left_option"]
+              "mandatory": [
+                "left_option"
+              ]
             }
           },
           "to": [
             {
               "key_code": "4",
-              "modifiers": ["left_command", "left_shift"],
+              "modifiers": [
+                "left_command",
+                "left_shift"
+              ],
               "hold_down_milliseconds": 200
             },
             {
@@ -4869,13 +5290,18 @@
           "from": {
             "key_code": "f2",
             "modifiers": {
-              "mandatory": ["left_option"]
+              "mandatory": [
+                "left_option"
+              ]
             }
           },
           "to": [
             {
               "key_code": "f2",
-              "modifiers": ["left_control", "fn"]
+              "modifiers": [
+                "left_control",
+                "fn"
+              ]
             }
           ]
         },
@@ -4885,13 +5311,17 @@
           "from": {
             "key_code": "q",
             "modifiers": {
-              "mandatory": ["left_option"]
+              "mandatory": [
+                "left_option"
+              ]
             }
           },
           "to": [
             {
               "key_code": "q",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -4901,13 +5331,17 @@
           "from": {
             "key_code": "semicolon",
             "modifiers": {
-              "mandatory": ["left_option"]
+              "mandatory": [
+                "left_option"
+              ]
             }
           },
           "to": [
             {
               "key_code": "open_bracket",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -4917,13 +5351,17 @@
           "from": {
             "key_code": "a",
             "modifiers": {
-              "mandatory": ["left_option"]
+              "mandatory": [
+                "left_option"
+              ]
             }
           },
           "to": [
             {
               "key_code": "spacebar",
-              "modifiers": ["left_option"]
+              "modifiers": [
+                "left_option"
+              ]
             }
           ]
         },
@@ -4933,7 +5371,9 @@
           "from": {
             "key_code": "g",
             "modifiers": {
-              "mandatory": ["left_option"]
+              "mandatory": [
+                "left_option"
+              ]
             }
           },
           "to": [
@@ -4948,7 +5388,9 @@
           "from": {
             "key_code": "d",
             "modifiers": {
-              "mandatory": ["left_option"]
+              "mandatory": [
+                "left_option"
+              ]
             }
           },
           "to": [
@@ -4963,7 +5405,9 @@
           "from": {
             "key_code": "s",
             "modifiers": {
-              "mandatory": ["left_option"]
+              "mandatory": [
+                "left_option"
+              ]
             }
           },
           "to": [
@@ -4978,13 +5422,17 @@
           "from": {
             "key_code": "e",
             "modifiers": {
-              "mandatory": ["left_option"]
+              "mandatory": [
+                "left_option"
+              ]
             }
           },
           "to": [
             {
               "key_code": "c",
-              "modifiers": ["left_command"],
+              "modifiers": [
+                "left_command"
+              ],
               "hold_down_milliseconds": 100
             },
             {
@@ -5005,12 +5453,16 @@
             },
             {
               "key_code": "a",
-              "modifiers": ["left_command"],
+              "modifiers": [
+                "left_command"
+              ],
               "hold_down_milliseconds": 100
             },
             {
               "key_code": "v",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -5020,7 +5472,9 @@
           "from": {
             "key_code": "f",
             "modifiers": {
-              "mandatory": ["left_option"]
+              "mandatory": [
+                "left_option"
+              ]
             }
           },
           "to": [
@@ -5054,20 +5508,27 @@
               "value": 0
             },
             {
-              "file_paths": ["Brave Browser"],
+              "file_paths": [
+                "Brave Browser"
+              ],
               "type": "frontmost_application_if"
             }
           ],
           "from": {
             "key_code": "k",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "return_or_enter",
-              "modifiers": ["left_command", "left_shift"]
+              "modifiers": [
+                "left_command",
+                "left_shift"
+              ]
             }
           ]
         },
@@ -5091,20 +5552,26 @@
               "value": 0
             },
             {
-              "file_paths": ["Brave Browser"],
+              "file_paths": [
+                "Brave Browser"
+              ],
               "type": "frontmost_application_if"
             }
           ],
           "from": {
             "key_code": "j",
             "modifiers": {
-              "mandatory": ["left_control"]
+              "mandatory": [
+                "left_control"
+              ]
             }
           },
           "to": [
             {
               "key_code": "return_or_enter",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -5128,7 +5595,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Brave Browser"],
+              "file_paths": [
+                "Brave Browser"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -5138,7 +5607,10 @@
           "to": [
             {
               "key_code": "j",
-              "modifiers": ["left_shift", "left_option"],
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ],
               "hold_down_milliseconds": 100
             }
           ]
@@ -5163,7 +5635,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Brave Browser"],
+              "file_paths": [
+                "Brave Browser"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -5173,7 +5647,10 @@
           "to": [
             {
               "key_code": "i",
-              "modifiers": ["left_command", "left_option"]
+              "modifiers": [
+                "left_command",
+                "left_option"
+              ]
             }
           ]
         },
@@ -5197,7 +5674,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Brave Browser"],
+              "file_paths": [
+                "Brave Browser"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -5207,7 +5686,9 @@
           "to": [
             {
               "key_code": "r",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -5231,7 +5712,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Brave Browser"],
+              "file_paths": [
+                "Brave Browser"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -5241,7 +5724,11 @@
           "to": [
             {
               "key_code": "y",
-              "modifiers": ["left_option", "left_shift", "left_control"]
+              "modifiers": [
+                "left_option",
+                "left_shift",
+                "left_control"
+              ]
             }
           ]
         },
@@ -5265,7 +5752,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Brave Browser"],
+              "file_paths": [
+                "Brave Browser"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -5275,7 +5764,11 @@
           "to": [
             {
               "key_code": "u",
-              "modifiers": ["left_option", "left_shift", "left_control"]
+              "modifiers": [
+                "left_option",
+                "left_shift",
+                "left_control"
+              ]
             }
           ]
         },
@@ -5299,7 +5792,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Brave Browser"],
+              "file_paths": [
+                "Brave Browser"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -5309,7 +5804,9 @@
           "to": [
             {
               "key_code": "close_bracket",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -5333,7 +5830,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Brave Browser"],
+              "file_paths": [
+                "Brave Browser"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -5343,7 +5842,9 @@
           "to": [
             {
               "key_code": "backslash",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -5367,7 +5868,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Brave Browser"],
+              "file_paths": [
+                "Brave Browser"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -5377,7 +5880,9 @@
           "to": [
             {
               "key_code": "w",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         }
@@ -5406,7 +5911,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Obsidian"],
+              "file_paths": [
+                "Obsidian"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -5416,7 +5923,9 @@
           "to": [
             {
               "key_code": "p",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ]
         },
@@ -5440,7 +5949,9 @@
               "value": 0
             },
             {
-              "file_paths": ["Obsidian"],
+              "file_paths": [
+                "Obsidian"
+              ],
               "type": "frontmost_application_if"
             }
           ],
@@ -5450,7 +5961,10 @@
           "to": [
             {
               "key_code": "f",
-              "modifiers": ["left_command", "left_shift"]
+              "modifiers": [
+                "left_command",
+                "left_shift"
+              ]
             }
           ]
         }
@@ -5468,7 +5982,9 @@
           "to": [
             {
               "key_code": "home",
-              "modifiers": ["fn"]
+              "modifiers": [
+                "fn"
+              ]
             }
           ],
           "conditions": [
@@ -5478,7 +5994,9 @@
               "value": 4
             },
             {
-              "file_paths": ["Wondershare Filmora X"],
+              "file_paths": [
+                "Wondershare Filmora X"
+              ],
               "type": "frontmost_application_if"
             }
           ]
@@ -5492,7 +6010,9 @@
           "to": [
             {
               "key_code": "end",
-              "modifiers": ["fn"]
+              "modifiers": [
+                "fn"
+              ]
             }
           ],
           "conditions": [
@@ -5502,7 +6022,9 @@
               "value": 4
             },
             {
-              "file_paths": ["Wondershare Filmora X"],
+              "file_paths": [
+                "Wondershare Filmora X"
+              ],
               "type": "frontmost_application_if"
             }
           ]
@@ -5525,7 +6047,9 @@
               "value": 4
             },
             {
-              "file_paths": ["Wondershare Filmora X"],
+              "file_paths": [
+                "Wondershare Filmora X"
+              ],
               "type": "frontmost_application_if"
             }
           ]
@@ -5548,7 +6072,9 @@
               "value": 4
             },
             {
-              "file_paths": ["Wondershare Filmora X"],
+              "file_paths": [
+                "Wondershare Filmora X"
+              ],
               "type": "frontmost_application_if"
             }
           ]
@@ -5562,7 +6088,9 @@
           "to": [
             {
               "key_code": "b",
-              "modifiers": ["left_command"]
+              "modifiers": [
+                "left_command"
+              ]
             }
           ],
           "conditions": [
@@ -5572,7 +6100,9 @@
               "value": 4
             },
             {
-              "file_paths": ["Wondershare Filmora X"],
+              "file_paths": [
+                "Wondershare Filmora X"
+              ],
               "type": "frontmost_application_if"
             }
           ]
