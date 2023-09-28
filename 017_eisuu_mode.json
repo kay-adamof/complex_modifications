@@ -4501,7 +4501,7 @@
             }
           ],
           "from": {
-            "key_code": "j"
+            "key_code": "h"
           },
           "to": [
             {
@@ -4540,7 +4540,7 @@
             }
           ],
           "from": {
-            "key_code": "k"
+            "key_code": "l"
           },
           "to": [
             {
@@ -4657,7 +4657,7 @@
             }
           ],
           "from": {
-            "key_code": "l"
+            "key_code": "j"
           },
           "to": [
             {
@@ -4696,7 +4696,7 @@
             }
           ],
           "from": {
-            "key_code": "h"
+            "key_code": "k"
           },
           "to": [
             {
