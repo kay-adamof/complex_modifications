@@ -5,29 +5,6 @@
       "description": "Input Source",
       "manipulators": [
         {
-          "description": "# Input Source | Open Emoji selector",
-          "type": "basic",
-          "from": {
-            "key_code": "left_control",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "left_control",
-              "lazy": true
-            }
-          ],
-          "to_if_alone": [
-            {
-              "apple_vendor_top_case_key_code": "keyboard_fn"
-            }
-          ]
-        },
-        {
           "description": "# Input Source | Change English input source to Japanese",
           "type": "basic",
           "from": {
