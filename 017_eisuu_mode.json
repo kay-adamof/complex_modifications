@@ -4657,7 +4657,12 @@
             }
           ],
           "from": {
-            "key_code": "j"
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ]
+            }
           },
           "to": [
             {
@@ -4696,7 +4701,12 @@
             }
           ],
           "from": {
-            "key_code": "k"
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ]
+            }
           },
           "to": [
             {
